@@ -1,0 +1,38 @@
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.note-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.note-form input[type="text"],
+.note-form input[type="date"] {
+  flex: 1;
+  padding: 8px;
+}
+
+.note-form button {
+  padding: 8px 16px;
+}
+
+.notes-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.notes-table th,
+.notes-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.notes-table th {
+  background-color: #f2f2f2;
+}

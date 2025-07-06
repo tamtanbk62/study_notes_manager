@@ -1,0 +1,14 @@
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
+button {
+  margin: 0 2px;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  box-sizing: border-box;
+}
